@@ -27,3 +27,6 @@
 #endif
 
 #define RGB_MATRIX_LED_COUNT (IS31FL3733_LED_COUNT + WS2812_LED_COUNT)
+
+// For space optimisation
+#define NO_MUSIC_MODE

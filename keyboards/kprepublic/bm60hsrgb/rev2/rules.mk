@@ -1,4 +1,12 @@
 WS2812_DRIVER_REQUIRED = yes
+CONSOLE_ENABLE = yes
+
+# For space optimisations
+COMMAND_ENABLE = no
+SPACE_CADET_ENABLE = no
+GRAVE_ESC_ENABLE = no
+MUSIC_ENABLE = no
+MAGIC_ENABLE = no
 
 COMMON_VPATH += $(DRIVER_PATH)/led/issi
 SRC += is31fl3733.c
